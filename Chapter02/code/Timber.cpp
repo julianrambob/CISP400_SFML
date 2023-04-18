@@ -165,7 +165,7 @@ int main()
 		{
 			spriteCloud2.setPosition(
 				spriteCloud2.getPosition().x +
-				(cloud1Speed * dt.asSeconds()),
+				(cloud2Speed * dt.asSeconds()),
 				spriteCloud2.getPosition().y);
 			// Has the cloud reached the right hand edge of the screen?
 			if (spriteCloud2.getPosition().x > 1920)
